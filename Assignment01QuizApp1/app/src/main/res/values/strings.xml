@@ -1,0 +1,192 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <!-- Questions -->
+    <string-array name="questions">
+        <item>Which planet is known as the Red Planet?</item>
+        <item>Who wrote Romeo and Juliet?</item>
+        <item>What is the capital of Australia?</item>
+        <item>In which year did the Titanic sink?</item>
+        <item>Which element has the chemical symbol O?</item>
+        <item>Who painted the Mona Lisa?</item>
+        <item>What is the largest desert in the world?</item>
+        <item>Which is the longest river in the world?</item>
+        <item>Who developed the theory of relativity?</item>
+        <item>Which country is the largest by area?</item>
+        <item>Which ocean is the deepest in the world?</item>
+        <item>Which country hosted the 2016 Summer Olympics?</item>
+        <item>What is the hardest natural substance on Earth?</item>
+        <item>In which continent is the Sahara Desert located?</item>
+        <item>Who was the first woman to fly solo across the Atlantic Ocean?</item>
+        <item>What is the smallest country in the world by land area?</item>
+        <item>Which gas is most abundant in the Earths atmosphere?</item>
+        <item>In which year did World War II end?</item>
+        <item>Which organ in the human body produces insulin?</item>
+        <item>What is the capital of Japan?</item>
+    </string-array>
+
+    <!-- Options for each question -->
+    <string-array name="options1">
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+    </string-array>
+
+    <string-array name="options2">
+        <item>Charles Dickens</item>
+        <item>William Shakespeare</item>
+        <item>Mark Twain</item>
+        <item>J.K. Rowling</item>
+    </string-array>
+
+    <string-array name="options3">
+        <item>Sydney</item>
+        <item>Melbourne</item>
+        <item>Canberra</item>
+        <item>Perth</item>
+    </string-array>
+
+    <string-array name="options4">
+        <item>1912</item>
+        <item>1905</item>
+        <item>1920</item>
+        <item>1899</item>
+    </string-array>
+
+    <string-array name="options5">
+        <item>Oxygen</item>
+        <item>Gold</item>
+        <item>Osmium</item>
+        <item>Ozone</item>
+    </string-array>
+
+    <string-array name="options6">
+        <item>Pablo Picasso</item>
+        <item>Vincent van Gogh</item>
+        <item>Leonardo da Vinci</item>
+        <item>Michelangelo</item>
+    </string-array>
+
+    <string-array name="options7">
+        <item>Gobi Desert</item>
+        <item>Sahara Desert</item>
+        <item>Kalahari Desert</item>
+        <item>Antarctic Desert</item>
+    </string-array>
+
+    <string-array name="options8">
+        <item>Nile</item>
+        <item>Amazon</item>
+        <item>Yangtze</item>
+        <item>Mississippi</item>
+    </string-array>
+
+    <string-array name="options9">
+        <item>Isaac Newton</item>
+        <item>Albert Einstein</item>
+        <item>Nikola Tesla</item>
+        <item>Stephen Hawking</item>
+    </string-array>
+
+    <string-array name="options10">
+        <item>China</item>
+        <item>Canada</item>
+        <item>United States</item>
+        <item>Russia</item>
+    </string-array>
+
+    <string-array name="options11">
+        <item>Atlantic Ocean</item>
+        <item>Pacific Ocean</item>
+        <item>Indian Ocean</item>
+        <item>Southern Ocean</item>
+    </string-array>
+
+    <string-array name="options12">
+        <item>China</item>
+        <item>Brazil</item>
+        <item>Japan</item>
+        <item>Russia</item>
+    </string-array>
+
+    <string-array name="options13">
+        <item>Diamond</item>
+        <item>Gold</item>
+        <item>Steel</item>
+        <item>Quartz</item>
+    </string-array>
+
+    <string-array name="options14">
+        <item>Asia</item>
+        <item>Africa</item>
+        <item>South America</item>
+        <item>North America</item>
+    </string-array>
+
+    <string-array name="options15">
+        <item>Amelia Earhart</item>
+        <item>Sally Ride</item>
+        <item>Bessie Coleman</item>
+        <item>Harriet Quimby</item>
+    </string-array>
+
+    <string-array name="options16">
+        <item>Monaco</item>
+        <item>Vatican City</item>
+        <item>San Marino</item>
+        <item>Liechtenstein</item>
+    </string-array>
+
+
+    <string-array name="options17">
+        <item>Oxygen</item>
+        <item>Carbon Dioxide</item>
+        <item>Nitrogen</item>
+        <item>Hydrogen</item>
+    </string-array>
+
+    <string-array name="options18">
+        <item>1939</item>
+        <item>1941</item>
+        <item>1945</item>
+        <item>1950</item>
+    </string-array>
+
+    <string-array name="options19">
+        <item>Liver</item>
+        <item>Kidney</item>
+        <item>Pancreas</item>
+        <item>Lungs</item>
+    </string-array>
+
+    <string-array name="options20">
+        <item>Tokyo</item>
+        <item>Osaka</item>
+        <item>Kyoto</item>
+        <item>Hiroshima</item>
+    </string-array>
+
+    <!-- Correct answers (index of correct option starting from 0) -->
+    <string-array name="answers">
+        <item>2</item>
+        <item>1</item>
+        <item>3</item>
+        <item>1</item>
+        <item>1</item>
+        <item>3</item>
+        <item>4</item>
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>2</item>
+        <item>2</item>
+        <item>1</item>
+        <item>2</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>1</item>
+    </string-array>
+</resources>
