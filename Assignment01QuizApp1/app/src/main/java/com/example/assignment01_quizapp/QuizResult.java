@@ -15,7 +15,6 @@ public class QuizResult extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quiz_result);
 
-        // Find the TextView where the score will be displayed
         TextView tvFinalScore = findViewById(R.id.tvFinalScore);
         TextView tvPercentage = findViewById(R.id.tvPercentage);
         TextView tvCorrectAnswers = findViewById(R.id.tvCorrectAnswers);
@@ -24,11 +23,9 @@ public class QuizResult extends AppCompatActivity {
         btnRetry = (Button)findViewById(R.id.btn_retry);
 
 
-        // Get the score, total time from the intent
         int score = getIntent().getIntExtra("finalScore", 0); // Default value is 0 if no extra found
         //int timeInMillis = getIntent().getIntExtra("timeSpent", 0); // Time in milliseconds
 
-        // Set the score to the TextView
         tvFinalScore.setText("Your Score: " + score);
 
         // Calculate the number of correct answers assuming 5 points per correct answer

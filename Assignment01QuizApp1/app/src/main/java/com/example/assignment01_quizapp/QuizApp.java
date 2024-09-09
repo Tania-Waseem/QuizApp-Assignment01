@@ -29,7 +29,7 @@ public class QuizApp extends AppCompatActivity {
 
     int currentIndex = 0;
     int score = 0;
-    int timeLeft = 120000; // 1 minute in milliseconds
+    int timeLeft = 240000;
     CountDownTimer timer;
 
     @Override

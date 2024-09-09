@@ -18,7 +18,7 @@ public class StartupPage extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_startup_page);
-        TextView welcome = findViewById(R.id.QuizApp);
+
         btnStart = (Button)findViewById(R.id.StartButton);
 
 
