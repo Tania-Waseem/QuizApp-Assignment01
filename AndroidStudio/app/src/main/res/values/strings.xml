@@ -1,8 +1,0 @@
-<resources>
-    <string name="app_name">My Application</string>
-    <string name= "question1">Is Shahbaz Sharif the Prime Minister of Pakistan?</string>
-    <string name= "question2">Am I going to work in Google in next 5 years?</string>
-    <string name= "question3">River Indus is the largest River of Pakistan?</string>
-    <string name= "question4">Lahore is the largest city of Pakistan?</string>
-
-</resources>
