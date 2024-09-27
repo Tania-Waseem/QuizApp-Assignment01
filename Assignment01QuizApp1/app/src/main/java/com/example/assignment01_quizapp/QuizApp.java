@@ -29,7 +29,7 @@ public class QuizApp extends AppCompatActivity {
 
     int currentIndex = 0;
     int score = 0;
-    int timeLeft = 240000;
+    int timeLeft = 180000;
     CountDownTimer timer;
 
     @Override
@@ -153,10 +153,6 @@ public class QuizApp extends AppCompatActivity {
     }
 
 
-
-
-
-
     private void endExam() {
         timer.cancel();
         // Calculate the time elapsed
@@ -173,7 +169,6 @@ public class QuizApp extends AppCompatActivity {
         // Start the ResultActivity
         startActivity(intent);
 
-        // Optional: Finish the current activity if you don't want to allow the user to return
         finish();
     }
 
